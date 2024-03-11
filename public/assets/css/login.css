@@ -1,0 +1,102 @@
+h1 {
+    font-size: 50pt;
+    margin: 0px;
+}
+h3 {
+    color: #1a2839;
+    font-weight: 900;
+    font-size: 20pt;
+}
+span {
+    font-size: 10pt;
+}
+input.req {
+    border-radius: 50px;
+    height: 50px;
+    width: 300px;
+    margin: 20px 0px;
+    border: solid white;
+    outline: none;
+    box-shadow: 0px 30px 30px rgb(185, 184, 184),
+        0px -3px 10px rgb(185, 184, 184);
+    padding: 0 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: calc(100vh - 60px - 45px - 2rem);
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    align-items: center;
+    margin: auto;
+}
+
+.welcome {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 100px 40px;
+    background-image: linear-gradient(45deg, rgb(13, 110, 253), #1a2839);
+    color: white;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.learn {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.sign-up-btn {
+    background-color: #1a2839;
+    border: solid #1a2839;
+    box-shadow: 0px 30px 30px rgb(185, 184, 184),
+        0px -3px 10px rgb(185, 184, 184);
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 300px;
+    margin: 20px 0px;
+    font-size: 14pt;
+    font-family: "Comic Sans MS";
+    cursor: pointer;
+    transition: 0.6s ease;
+    -webkit-transition: 0.6s ease;
+    -moz-transition: 0.6s ease;
+    -ms-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+}
+.sign-up-btn:hover {
+    background-color: white;
+    color: #1a2839;
+    border: 1px solid #1a2839;
+}
+#Learn {
+    border: solid 2px white;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-family: "Comic Sans MS";
+    font-size: 12pt;
+    cursor: pointer;
+    transition: 0.6s ease;
+    -webkit-transition: 0.6s ease;
+    -moz-transition: 0.6s ease;
+    -ms-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+}
+#Learn:hover {
+    background-color: white;
+    color: #1a2839;
+    border: 2px solid #1a2839;
+}
+.register-form {
+    display: contents;
+}
